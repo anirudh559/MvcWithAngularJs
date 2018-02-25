@@ -63,3 +63,6 @@ c:\users\anirudh\documents\visual studio 2013\Projects\MVCWithAngularJs\MVCWithA
 c:\users\anirudh\documents\visual studio 2013\Projects\MVCWithAngularJs\MVCWithAngularJs\obj\Debug\MVCWithAngularJs.csprojResolveAssemblyReference.cache
 c:\users\anirudh\documents\visual studio 2013\Projects\MVCWithAngularJs\MVCWithAngularJs\obj\Debug\MVCWithAngularJs.dll
 c:\users\anirudh\documents\visual studio 2013\Projects\MVCWithAngularJs\MVCWithAngularJs\obj\Debug\MVCWithAngularJs.pdb
+c:\users\anirudh\documents\visual studio 2013\Projects\MVCWithAngularJs\MVCWithAngularJs\bin\System.Web.Cors.dll
+c:\users\anirudh\documents\visual studio 2013\Projects\MVCWithAngularJs\MVCWithAngularJs\bin\System.Web.Http.Cors.dll
+c:\users\anirudh\documents\visual studio 2013\Projects\MVCWithAngularJs\MVCWithAngularJs\bin\System.Web.Http.Cors.xml

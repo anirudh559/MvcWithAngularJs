@@ -5,53 +5,81 @@
 }
 
 <h2>GetEmployees</h2>
+<script src="~/Scripts/angular.js"></script>
 <script src="~/AngularJsScripts/GetEmployeeScript.js"></script>
-<div ng-app="">
-    <h4>Employee</h4>
-	<hr />
-    <dl class="dl-horizontal">
-        <dt>
-            @*checking git status*@
-            @Html.DisplayNameFor(model => model.employeeName)
-        </dt>
+<div ng-app="mymodule">
+    <div ng-controller="Mycontroller">
+        <div>
+            <table>
+                <thead>
+                    <tr>
+                        <th>employee Name</th>
+                        <th>employee Age</th>
+                        <th>employee Salary</th>
+                        <th>employee Designation</th>
+                        <th>employee Project</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr ng-repeat="employee in employees">
+                        <td>{{employee.employeeName}}</td>
+                        <td>{{employee.employeeAge}}</td>
+                        <td>{{employee.employeeSalary}}</td>
+                        <td>{{employee.employeeDesignation}}</td>
+                        <td>{{employee.employeeProject}}</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <h4>Employee</h4>
+        <hr />
 
-        <dd>
-            @Html.DisplayFor(model => model.employeeName)
-        </dd>
 
-        <dt>
-            @Html.DisplayNameFor(model => model.employeeAge)
-        </dt>
 
-        <dd>
-            @Html.DisplayFor(model => model.employeeAge)
-        </dd>
+        <dl class="dl-horizontal" ng-repeat="employee in employees">
+            <dt>
+                @Html.DisplayNameFor(model => model.employeeName)
+            </dt>
 
-        <dt>
-            @Html.DisplayNameFor(model => model.employeeSalary)
-        </dt>
+            <dd>
+                @Html.TextBoxFor(model => model.employeeName, new { ng_model = "employee.employeeName" })
+            </dd>
 
-        <dd>
-            @Html.DisplayFor(model => model.employeeSalary)
-        </dd>
+            <dt>
+                @Html.DisplayNameFor(model => model.employeeAge)
+            </dt>
 
-        <dt>
-            @Html.DisplayNameFor(model => model.employeeDesignation)
-        </dt>
+            <dd>
+                @Html.TextBoxFor(model => model.employeeName, new { ng_model = "employee.employeeAge" })
+            </dd>
 
-        <dd>
-            @Html.DisplayFor(model => model.employeeDesignation)
-        </dd>
+            <dt>
+                @Html.DisplayNameFor(model => model.employeeSalary)
+            </dt>
 
-        <dt>
-            @Html.DisplayNameFor(model => model.employeeProject)
-        </dt>
+            <dd>
+                @Html.TextBoxFor(model => model.employeeName, new { ng_model = "employee.employeeSalary" })
+            </dd>
 
-        <dd>
-            @Html.DisplayFor(model => model.employeeProject)
-        </dd>
+            <dt>
+                @Html.DisplayNameFor(model => model.employeeDesignation)
+            </dt>
 
-    </dl>
+            <dd>
+                @Html.TextBoxFor(model => model.employeeName, new { ng_model = "employee.employeeDesignation" })
+            </dd>
+
+            <dt>
+                @Html.DisplayNameFor(model => model.employeeProject)
+            </dt>
+
+            <dd>
+                @Html.TextBoxFor(model => model.employeeName, new { ng_model = "employee.employeeDesignation" })
+            </dd>
+
+        </dl>
+    </div>
+    
 </div>
 <p>
     @Html.ActionLink("Edit", "Edit", new { /* id = Model.PrimaryKey */ }) |

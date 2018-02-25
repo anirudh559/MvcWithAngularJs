@@ -30,3 +30,8 @@ c:\users\anirudh\documents\visual studio 2013\Projects\MVCWithAngularJs\WebApiSe
 c:\users\anirudh\documents\visual studio 2013\Projects\MVCWithAngularJs\WebApiService\obj\Debug\WebApiService.csprojResolveAssemblyReference.cache
 c:\users\anirudh\documents\visual studio 2013\Projects\MVCWithAngularJs\WebApiService\obj\Debug\WebApiService.dll
 c:\users\anirudh\documents\visual studio 2013\Projects\MVCWithAngularJs\WebApiService\obj\Debug\WebApiService.pdb
+c:\users\anirudh\documents\visual studio 2013\Projects\MVCWithAngularJs\WebApiService\bin\DTOProperties.dll
+c:\users\anirudh\documents\visual studio 2013\Projects\MVCWithAngularJs\WebApiService\bin\DTOProperties.pdb
+c:\users\anirudh\documents\visual studio 2013\Projects\MVCWithAngularJs\WebApiService\bin\System.Web.Cors.dll
+c:\users\anirudh\documents\visual studio 2013\Projects\MVCWithAngularJs\WebApiService\bin\System.Web.Http.Cors.dll
+c:\users\anirudh\documents\visual studio 2013\Projects\MVCWithAngularJs\WebApiService\bin\System.Web.Http.Cors.xml
