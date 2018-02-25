@@ -1,0 +1,58 @@
+﻿@model DTOProperties.Employee
+
+@{
+    ViewBag.Title = "GetEmployees";
+}
+
+<h2>GetEmployees</h2>
+<script src="~/AngularJsScripts/GetEmployeeScript.js"></script>
+<div>
+    <h4>Employee</h4>
+	<hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.employeeName)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.employeeName)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.employeeAge)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.employeeAge)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.employeeSalary)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.employeeSalary)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.employeeDesignation)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.employeeDesignation)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.employeeProject)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.employeeProject)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { /* id = Model.PrimaryKey */ }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

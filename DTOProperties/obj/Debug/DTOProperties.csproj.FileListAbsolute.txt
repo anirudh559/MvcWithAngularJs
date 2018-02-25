@@ -1,0 +1,5 @@
+c:\users\anirudh\documents\visual studio 2013\Projects\MVCWithAngularJs\DTOProperties\bin\Debug\DTOProperties.dll
+c:\users\anirudh\documents\visual studio 2013\Projects\MVCWithAngularJs\DTOProperties\bin\Debug\DTOProperties.pdb
+c:\users\anirudh\documents\visual studio 2013\Projects\MVCWithAngularJs\DTOProperties\obj\Debug\DTOProperties.csprojResolveAssemblyReference.cache
+c:\users\anirudh\documents\visual studio 2013\Projects\MVCWithAngularJs\DTOProperties\obj\Debug\DTOProperties.dll
+c:\users\anirudh\documents\visual studio 2013\Projects\MVCWithAngularJs\DTOProperties\obj\Debug\DTOProperties.pdb
