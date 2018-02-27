@@ -16,7 +16,7 @@ namespace MVCWithAngularJs
             routes.MapRoute(
                 name: "Default",
                 url: "{controller}/{action}/{id}",
-                defaults: new { controller = "Employee", action = "GetEmployees", id = UrlParameter.Optional }
+                defaults: new { controller = "Employee", action = "SaveEmployeDeailsPage", id = UrlParameter.Optional }
             );
         }
     }

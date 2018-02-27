@@ -35,5 +35,12 @@ namespace WebApiService.Controllers
             return empList;
         }
 
+
+       [HttpPost]
+       public Employee SaveEmpDetails(Employee Employee)
+       {
+           return Employee;
+       }
+
 	}
 }
