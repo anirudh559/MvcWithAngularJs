@@ -21,7 +21,6 @@ namespace WebApiService
                 defaults: new { id = RouteParameter.Optional }
             );
             var cors = new EnableCorsAttribute("http://localhost:51471", "*", "*");
-
             config.EnableCors(cors);
         }
     }

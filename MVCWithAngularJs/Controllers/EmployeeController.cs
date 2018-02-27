@@ -20,5 +20,10 @@ namespace MVCWithAngularJs.Controllers
         {
             return View();
         }
+
+        public ActionResult SaveEmployeDeailsPage()
+        {
+            return View();
+        }
 	}
 }

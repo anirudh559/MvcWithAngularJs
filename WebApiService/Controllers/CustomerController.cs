@@ -10,18 +10,20 @@ using DTOProperties;
 
 namespace WebApiService.Controllers
 {
-    public class CustomerController : Controller
+    [RoutePrefix("api/Customer")]
+    public class CustomerController : System.Web.Http.ApiController
     {
         //static Customer cust = new Customer();
         //
         // GET: /Customer/
-        public string GetCustomerDetails()
+       [Route("CustomerDetails")]
+        [HttpGet]
+        public List<Employee> GetCustomerDetails()
         {
             List<Employee> empList = new List<Employee>();
-            Employee emp = new Employee();
-            for(int i=0 ; i<10 ; i++)
+            for(int i=0 ; i<=10 ; i++)
             {
-
+                Employee emp = new Employee();
                  emp.employeeName ="Emp"+i;
                  emp.employeeAge  =i*5;
                  emp.employeeSalary=i*1000;
@@ -30,7 +32,7 @@ namespace WebApiService.Controllers
                  empList.Add(emp);
             }
             string json = JsonConvert.SerializeObject(empList, Formatting.Indented);
-            return json;
+            return empList;
         }
 
 	}

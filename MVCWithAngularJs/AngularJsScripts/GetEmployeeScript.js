@@ -4,7 +4,7 @@
 var myapp = angular
     .module("mymodule", [])
     .controller("Mycontroller", function ($scope,$http) {
-        $http.get('/Customer/GetCustomerDetails')
+        $http.get('http://localhost:51952/api/Customer/CustomerDetails')
         .then(function (response) {
             //alert(response.data)
             $scope.employees = response.data;
